@@ -1,0 +1,9 @@
+
+[37;41m                                    [39;49m
+[37;41m  Command "config" is not defined.  [39;49m
+[37;41m                                    [39;49m
+[37;41m  Did you mean one of these?        [39;49m
+[37;41m      config:cache                  [39;49m
+[37;41m      config:clear                  [39;49m
+[37;41m                                    [39;49m
+

@@ -1,0 +1,256 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+    padding: 60px 15px 0;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+code {
+    font-size: 80%;
+}
+
+.pricing-header {
+    max-width: 700px;
+}
+
+.card-deck .card {
+    min-width: 220px;
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 1px;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 100px;
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 32rem;
+    background-color: #777;
+}
+.carousel-small{
+    height: 150px;
+}
+
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+}
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#particles-js {
+    background-color: #b61924;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.marketing h2 {
+    font-weight: 400;
+}
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+/*Cookie Consent Begin*/
+#cookieConsent {
+    background-color: rgba(20,20,20,0.8);
+    min-height: 26px;
+    font-size: 14px;
+    color: #ccc;
+    line-height: 26px;
+    padding: 8px 0 8px 30px;
+    font-family: "Trebuchet MS",Helvetica,sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    z-index: 9999;
+}
+#cookieConsent a {
+    color: #4B8EE7;
+    text-decoration: none;
+}
+#closeCookieConsent {
+    float: right;
+    display: inline-block;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: -15px 0 0 0;
+    font-weight: bold;
+}
+#closeCookieConsent:hover {
+    color: #FFF;
+}
+#cookieConsent a.cookieConsentOK {
+    background-color: #F1D600;
+    color: #000;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0 20px;
+    cursor: pointer;
+    float: right;
+    margin: 0 60px 0 10px;
+}
+#cookieConsent a.cookieConsentOK:hover {
+    background-color: #E0C91F;
+}
+/*Cookie Consent End*/
+.pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+    margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+
+.pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.pricing .card-price .period {
+    font-size: 0.8rem;
+}
+
+.pricing ul li {
+    margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+    opacity: 0.7;
+}
+
+.pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+    .pricing .card:hover {
+        margin-top: -.25rem;
+        margin-bottom: .25rem;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+
+    .pricing .card:hover .btn {
+        opacity: 1;
+    }
+}
+.card {
+    margin: 0 auto;
+}
+.card .carousel-item {
+    height: 200px;
+}
+.card .carousel-caption {
+    padding: 0;
+    right: 0;
+    left: 0;
+    color: #3d3d3d;
+}
+.card .carousel-caption h3 {
+    color: #3d3d3d;
+}
+.card .carousel-caption p {
+    line-height: 30px;
+}
+.card .carousel-caption .col-sm-3 {
+    display: flex;
+    align-items: center;
+}
+.card .carousel-caption .col-sm-9 {
+    text-align: left;
+}
+.navi a {
+    text-decoration:none;
+}
+a > .ico {
+    background-color: grey;
+    padding: 10px;
+
+}
+a:hover > .ico {
+    background-color: #666;
+}
